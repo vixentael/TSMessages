@@ -46,6 +46,9 @@
 @property (nonatomic,strong) UIImage *successIcon UI_APPEARANCE_SELECTOR;
 @property (nonatomic,strong) UIImage *warningIcon UI_APPEARANCE_SELECTOR;
 
+// Customize message insets
+@property (nonatomic, assign) CGFloat textSpaceLeft;
+@property (nonatomic, assign) CGFloat textSpaceRight;
 
 
 /** Inits the notification view. Do not call this from outside this library.

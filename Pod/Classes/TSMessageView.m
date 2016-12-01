@@ -48,9 +48,6 @@ static NSMutableDictionary *_notificationDesign;
 @property (nonatomic, strong) UIImageView *backgroundImageView;
 @property (nonatomic, strong) TSBlurView *backgroundBlurView; // Only used in iOS 7
 
-@property (nonatomic, assign) CGFloat textSpaceLeft;
-@property (nonatomic, assign) CGFloat textSpaceRight;
-
 @property (nonatomic, assign) BOOL iconOnTheRight;
 
 @property (copy) void (^callback)();
