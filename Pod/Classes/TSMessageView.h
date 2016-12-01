@@ -52,7 +52,7 @@
 
 
 // Public notification type
-- (TSMessageNotificationType *)messageViewNotificationType;
+- (TSMessageNotificationType)messageViewNotificationType;
 
 
 /** Inits the notification view. Do not call this from outside this library.

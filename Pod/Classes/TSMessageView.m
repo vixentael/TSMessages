@@ -63,7 +63,7 @@ static NSMutableDictionary *_notificationDesign;
     TSMessageNotificationType notificationType;
 }
 
-- (TSMessageNotificationType *)messageViewNotificationType {
+- (TSMessageNotificationType)messageViewNotificationType {
     return notificationType;
 }
 
