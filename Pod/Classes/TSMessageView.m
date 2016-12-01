@@ -62,6 +62,12 @@ static NSMutableDictionary *_notificationDesign;
 @implementation TSMessageView{
     TSMessageNotificationType notificationType;
 }
+
+- (TSMessageNotificationType *)messageViewNotificationType {
+    return notificationType;
+}
+
+
 -(void) setContentFont:(UIFont *)contentFont{
     _contentFont = contentFont;
     [self.contentView setContentFont:contentFont];

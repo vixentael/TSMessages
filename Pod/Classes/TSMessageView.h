@@ -51,6 +51,10 @@
 @property (nonatomic, assign) CGFloat textSpaceRight;
 
 
+// Public notification type
+- (TSMessageNotificationType *)messageViewNotificationType;
+
+
 /** Inits the notification view. Do not call this from outside this library.
  @param title The title of the notification view
  @param subtitle The subtitle of the notification view (optional)
