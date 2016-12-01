@@ -30,5 +30,5 @@ There are 4 different types already set up for you: Success, Error, Warning, Mes
   s.resources = ['Pod/Assets/*.png', 'Pod/Assets/*.json']
 
   s.public_header_files = 'Pod/Classes/**/*.h'
-  s.dependency 'HexColors', '~> 2.3.0'
+  s.dependency 'HexColors', '~> 4.0.0'
 end
